@@ -5,16 +5,15 @@
   <br>
   <h4>Current date/time: {{ current_time | datetimefilter }}</h4>
   <br>
-  <p>My string: {{my_string}}</p>
-  <h3>Contact:</h3>
-  <p>Eric M Haas, DVM, MS<br />
-  Health eData Inc<br />
-  35 Crescent Avenue, Sausalito, CA 94965<br />
-  707.227.2608<br />
-  ehaas@healthedatainc.com<br />
-  Skype: haas.eric1<br />
- </p>
-  <br>
+  <p>My string (in markdown!!): {{my_string | markdown | safe }}</p>
+  {{ '''**Contact :** (in markdown!!)
+
+  >Eric M Haas, DVM, MS<br/>
+  > *Health eData Inc*<br/>
+  > 35 Crescent Avenue, Sausalito, CA 94965<br/>
+  > 707.227.2608<br/>
+  > ehaas@healthedatainc.com<br/>
+  > Skype: haas.eric1''' | markdown | safe }}
   <!--
   <p>Same list with a filter: {{ my_list|join(', ') }}</p>
   -->

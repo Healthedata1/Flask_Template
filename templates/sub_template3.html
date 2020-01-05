@@ -1,3 +1,4 @@
+
 {% extends "template.html" %}
 
 {% block content %}
@@ -5,7 +6,7 @@
   <br>
   <h4>Current date/time: {{ current_time | datetimefilter }}</h4>
   <br>
-  <p>My string: {{my_string}}</p>
+  <p>My string (in markdown!!): {{my_string | markdown | safe }}</p>
   <h3>Patient {{p_id}} Resource:</h3>
 
 <h4>rendered narrative</h4>
@@ -20,8 +21,10 @@
 
 <h4>raw json</h4>
 
+<a href="/uploads/Patient_{{p_id}}">Download</a>
+
   <pre class="json">
-  {{r_dict | to_json}}
+  {{ r_dict | tojson(indent=4) }}
   </pre>
   <br>
   <!--

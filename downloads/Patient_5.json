@@ -1,0 +1,18 @@
+{
+    "resourceType": "Patient",
+    "id": "5",
+    "meta": {
+        "versionId": "61",
+        "lastUpdated": "2019-12-26T11:09:17.902+00:00",
+        "source": "#l4HTWNoHipzail6L"
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td/></tr></tbody></table></div>"
+    },
+    "identifier": [
+        {
+            "system": "privateKey"
+        }
+    ]
+}

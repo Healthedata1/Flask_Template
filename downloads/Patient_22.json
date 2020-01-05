@@ -1,0 +1,109 @@
+{
+    "resourceType": "Patient",
+    "id": "22",
+    "meta": {
+        "versionId": "97",
+        "lastUpdated": "2019-12-13T07:30:08.739+00:00",
+        "source": "#GqbBrErgkG1pahsg"
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> <div class=\"hapiHeaderText\">Caleb <b>CUSHING </b> </div> <table class=\"hapiPropertyTable\"> <tbody> <tr> <td>Identifier</td> <td>812ca8a0-33b4-494b-8ce4-f9b773f9d6b0</td> </tr> </tbody> </table> </div>"
+    },
+    "identifier": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://hl7.org/fhir/v2/0203",
+                        "code": "MR"
+                    }
+                ]
+            },
+            "value": "812ca8a0-33b4-494b-8ce4-f9b773f9d6b0"
+        }
+    ],
+    "name": [
+        {
+            "use": "official",
+            "family": "M\u00fcller",
+            "given": [
+                "Danielson"
+            ]
+        },
+        {
+            "use": "maiden",
+            "family": "Merkel"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "0405687522",
+            "use": "mobile"
+        },
+        {
+            "system": "email",
+            "value": "dhduhsdf@dfgg.de",
+            "use": "work"
+        }
+    ],
+    "gender": "other",
+    "address": [
+        {
+            "use": "work",
+            "line": [
+                "Frankenstrasse 7"
+            ],
+            "city": "Hamburg",
+            "state": "HH",
+            "postalCode": "20097",
+            "country": "Deutschland"
+        }
+    ],
+    "contact": [
+        {
+            "relationship": [
+                {
+                    "id": "e",
+                    "text": "Arbeitgeber"
+                }
+            ],
+            "name": {
+                "use": "official",
+                "family": "Lustig",
+                "given": [
+                    "Peter Meyer"
+                ]
+            },
+            "telecom": [
+                {
+                    "system": "email",
+                    "value": "dfgdfg@sdfsd.de",
+                    "use": "mobile"
+                },
+                {
+                    "system": "fax",
+                    "value": "sdfdsfsdf",
+                    "use": "temp"
+                }
+            ]
+        },
+        {
+            "relationship": [
+                {
+                    "id": "n",
+                    "text": "Kontaktperson"
+                }
+            ],
+            "name": {
+                "use": "official",
+                "family": "m\u00fcller",
+                "given": [
+                    "klaus",
+                    "peter"
+                ]
+            }
+        }
+    ]
+}
